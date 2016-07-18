@@ -1,0 +1,28 @@
+﻿  process.cpp
+c:\users\hexl\desktop\videoseg\demo\process.cpp(11): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\process.cpp(12): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\process.cpp(225): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\process.cpp(226): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\process.cpp(235): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\process.cpp(236): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\process.cpp(278): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\process.cpp(279): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\process.cpp(280): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\process.cpp(281): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\slicgraph.h(101): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+          c:\users\hexl\desktop\videoseg\demo\process.cpp(264): 参见对正在编译的函数 模板 实例化“std::vector<SlicNode<float>,std::allocator<_Ty>> construct_slic_graph<float>(std::vector<uchar,std::allocator<unsigned char>> &,const std::vector<int,std::allocator<int>> &,int,int,int)”的引用
+          with
+          [
+              _Ty=SlicNode<float>
+          ]
+c:\users\hexl\desktop\videoseg\demo\slicgraph.h(102): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\slicgraph.h(104): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\slicgraph.h(105): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+c:\users\hexl\desktop\videoseg\demo\slicgraph.h(370): warning C4018: “<”: 有符号/无符号不匹配
+          c:\users\hexl\desktop\videoseg\demo\process.cpp(303): 参见对正在编译的函数 模板 实例化“void spgraph_append<float>(std::vector<SlicNode<float>,std::allocator<_Ty>> &,const std::vector<_Ty,std::allocator<_Ty>> &)”的引用
+          with
+          [
+              _Ty=SlicNode<float>
+          ]
+bcv_alg.obj : warning LNK4075: 忽略“/EDITANDCONTINUE”(由于“/OPT:LBR”规范)
+  demo.vcxproj -> C:\Users\hexl\Desktop\VideoSeg\Debug\demo.exe

@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="bcv_alg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bcv_basic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bcv_kmeans.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bcv_sparse_op.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="bcv_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="GMM.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Slic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tvsegmentbinary.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vis_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="tSlic1c.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="segmentation_utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="process.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="bcv_alg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bcv_basic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bcv_kmeans.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bcv_sparse_op.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bcv_tSlic1c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="bcv_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="exchangeRGBandYCBCR.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="GMM.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mtdefine.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="process.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="segmentation_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Slic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="SlicGraph.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sss_core.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tSlic1c.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="tvsegmentbinary.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vis_utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
